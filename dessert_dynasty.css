@@ -1,0 +1,135 @@
+body { 
+  background-color: #E066C2;
+  font-family: 'Raleway', sans-serif;
+  font-size:        medium;
+  margin:           0px;
+}
+
+header.top {
+  padding-top: 60px;
+  font-size: 70px;
+  font-weight: normal;
+  color: #A3007A;
+  text-align: center;
+  background-image: url("images/dessertBanner1.jpg");
+  background-color: #CC0099;
+  margin: 10px 10px 0px 10px;
+  height:           400px;
+}
+
+header.top h1 {
+  color: #A3007A;
+}
+
+header.top p#header {
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#drinks {
+    display: table-cell;
+    background-color: #F5CCEB;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* added section#blog for blog */
+section#main, section#blog, section#form {
+  display: table-cell;
+  background:       #F5CCEB url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside {
+  display: table-cell;
+  background:       #F5CCEB url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside h1 {
+  text-align: center;
+}
+
+footer {
+  background-color: #CC0099;
+  color:            #F5CCEB;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 10px 10px 10px;
+  font-size:        90%;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #660066;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: ##660066; }
+
+.wedding {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #751975;
+  text-decoration:  none;
+  border-bottom:    thin dotted #751975;
+}
+a:visited {
+  color:            #660066;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+
+nav {
+    background-color: #F5CCEB
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: ##660066;
+	border-bottom: none;
+	font-weight: bold;
+
+}
+nav ul li.selected {
+	background-color: #EB99D6;
+}
+
+.intro:first-letter {
+  float: left;
+  font-size: 3em;
+  color: #E066C2;
+  padding: 5px 10px;
+  background: #660066;
+  margin: 0px 10px 00;
+  border-radius: 5px;
+  line-height: 1;
+}
